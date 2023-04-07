@@ -133,7 +133,7 @@
     flex-shrink: 0;
 }
 
-.placename {
+#placename {
     margin-right: 2rem;
     box-sizing: border-box;
     padding: 1.27rem 1.2rem 1.43rem 1.2rem;
@@ -157,11 +157,11 @@
     justify-content: center;
 }
 
-.placename:hover {
+#placename:hover {
     background-color: #f6f6f6;
 }
 
-.placeemail {
+#placeemail {
     margin-right: 2rem;
     box-sizing: border-box;
     padding: 1.27rem 1.2rem 1.43rem 1.2rem;
@@ -185,11 +185,11 @@
     justify-content: center;
 }
 
-.placeemail:hover {
+#placeemail:hover {
     background-color: #f6f6f6;
 }
 
-.placephone {
+#placephone {
     margin-right: 2rem;
     box-sizing: border-box;
     padding: 1.27rem 1.2rem 1.43rem 1.2rem;
@@ -213,7 +213,7 @@
     justify-content: center;
 }
 
-.placephone:hover {
+#placephone:hover {
     background-color: #f6f6f6;
 }
 
@@ -225,7 +225,7 @@
     flex-shrink: 0;
 }
 
-.placemess {
+#placemess {
     margin-right: 2rem;
     box-sizing: border-box;
     padding: 1.27rem 1.2rem 1.43rem 1.2rem;
@@ -249,7 +249,7 @@
     justify-content: center;
 }
 
-.placemess:hover {
+#placemess:hover {
     background-color: #f6f6f6;
 }
 
