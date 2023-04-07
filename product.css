@@ -1,0 +1,248 @@
+/* infor */
+
+#infor {
+    height: 200px;
+    background-color: var(--white-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.infor__time {
+    height: 42px;
+    width: 448px;
+    border: 1px solid #000;
+}
+
+.infor__time_selected {
+    text-decoration: none;
+    line-height: 42px;
+    font-size: 13px;
+    padding-left: 16px;
+
+}
+
+.infor__option {
+    border: 1px solid #000;
+    border-radius: 20px;
+    height: 42px;
+    width: 240px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.infor__option-link{
+    position: relative;
+    display: block;
+}
+
+.infor__option-link:hover .option__list{
+    display: flex !important;
+}
+
+.option-link--content {
+    color: var(--black);
+    text-decoration: none;
+    line-height: 42px;
+    font-size: 13px;
+    text-transform: uppercase;
+
+}
+
+.option__icon {
+    padding-left: 4px;
+}
+
+/* sub option  */
+
+#infor .option__list{
+    background-color: var(--white-color);
+    position: absolute;
+    top: 120%;
+    right: 50%;
+    transform: translateX(50%);
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #000;
+    border-radius:16px;
+    width: 240px;
+    display: none;
+    animation: faceIn ease-in 0.6s;
+    z-index: 1;
+}
+
+#infor .option__list::before{
+    position: absolute;
+    left: 0;
+    top: -16px;
+    width: 100%;
+    height: 20px;
+    content: "";
+    display: block;
+}
+
+
+
+#infor .sub__item{
+    text-decoration: none;
+    color: var(--black);
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 30px;
+
+}
+
+/* container */
+
+#container {}
+
+.container__header {
+    display: flex;
+    flex-direction: row;
+    height: 62px;
+    background-color: #F6F6F6;
+}
+
+.container__header-select {
+    display: flex;
+    justify-content: flex-end;
+    flex: 2;
+    padding-right: 20px;
+}
+
+
+.header__selected {
+    line-height: 62px;
+    text-decoration: none;
+    color: var(--black);
+    font-size: 13px;
+    border-bottom: 1px solid #6C0B0E;
+}
+
+.container__header-desc {
+    flex: 3;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header__desc {
+    line-height: 62px;
+    text-decoration: none;
+    color: var(--black);
+    font-size: 13px;
+    border-bottom: 2px solid #6C0B0E;
+}
+
+/* product */
+
+#product {}
+
+.product__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1100px;
+    margin: auto;
+
+}
+
+.product__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product__title {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    font-style: italic;
+    margin-top: 60px;
+}
+
+.product__desc {
+    font-size: 15px;
+    font-weight: 200;
+    text-decoration: none;
+    color: var(--black);
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 24px;
+    max-width: 600px;
+}
+
+.product__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* padding: 40px; */
+}
+
+.product__item {
+    display: flex;
+    width: 460px;
+    height: 180px;
+    margin: 40px 0;
+}
+
+.product__item-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #F6F6F6;
+    border-left: 6px solid #A01F24;
+    padding-left: 12px;
+    padding-top: 12px;
+}
+
+.product__item-name,
+.product__item-desc,
+.product__item-price {
+    color: var(--black);
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.product__item-price {
+    position: absolute;
+    bottom: 12px;
+}
+
+/* line */
+
+.line {
+    height: 2px;
+    width: 100%;
+    background-color: var(--black);
+}
+
+/* collection */
+
+.collection {
+    display: flex;
+    flex-direction: column;
+}
+
+.collection__title {
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration: none;
+    color: var(--black);
+
+}
+
+.collection__desc {
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    color: var(--black);
+
+}
