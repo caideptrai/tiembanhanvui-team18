@@ -1147,6 +1147,7 @@ html {
 /* desktop */
 @media screen and (min-width: 1024px) {
     #banner {
+        margin-top: 92px;
         position: relative;
         height: 620px;
         background: url('./assets/img/home/banner.png') bottom center / cover no-repeat;

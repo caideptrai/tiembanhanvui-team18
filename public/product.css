@@ -8,6 +8,7 @@
     align-items: center;
     flex-wrap: nowrap;
     flex-direction: row;
+    margin-top: 92px;
 }
 
 .infor__time {
