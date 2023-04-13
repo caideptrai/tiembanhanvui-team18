@@ -194,11 +194,12 @@ html {
     }
 
     /* -----------------best seller---------------- */
-    
     #bestseller {
         display: flex;
         flex-direction: column;
+        align-items: center;
         padding-bottom: 50px;
+        overflow: hidden;
     }
     .bestseller__title {
         display: flex;
@@ -212,7 +213,7 @@ html {
         color: #444444;
         text-decoration: none;
         line-height: 50px;
-        font-size: 40px;
+        font-size: 38px;
         font-weight: 300;
         font-style: italic;
     }
@@ -223,10 +224,12 @@ html {
     .bestseller__list {
         display: flex;
         position: relative;
-        padding: 24px;
+        flex-direction: row;
+        justify-content: center;
+        top: 50px;
     }
     .bestseller__item {
-        width: 40%;
+        width: 15%;
         overflow: hidden;
         display: flex;
         position: relative;
@@ -252,23 +255,21 @@ html {
     }
     
     /* ----------------product---------------- */
-    /* #product {
+    #product {
         display: flex;
         flex-direction: column;
     }
     .btn_sp {
         bottom: 23px;
-        left: 50%;        
         font-size: 1.3rem;
         font-weight: 500;
         line-height: 1;
-        height: 40px;
+        height: 35px;
         padding: 0 20px;
         cursor: pointer;
         border: 1px solid #444444;
         color: #ffffff;
         background-color: #a01f24;
-        transform: translateX(-50%);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -310,14 +311,14 @@ html {
         text-decoration: none;
         top: -2rem;
         line-height: 50px;
-        font-size: 40px;
+        font-size: 38px;
         font-weight: 300;
         font-style: italic;
     }
     .product__desc {
         max-width: 80%;
         position: relative;
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 200;
         top: -1rem;
         text-decoration: none;
@@ -330,12 +331,13 @@ html {
     }
     .product__list {
         display: flex;
-        flex-direction: row;
-        height: 300px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .product__list-item {
-        width: calc(100%/3);
         padding: 24px;
+        border-bottom: #c5c5c5 solid 0.1px;
     }
     .product__list-item:hover {
         border: #c5c5c5 solid 3px;
@@ -345,10 +347,10 @@ html {
         font-weight: 200;
         font-style: italic;
         text-decoration: none;
-        color: var(--black);
+        color:#444444;
     }
     #product .container__image {
-        height: 80%;
+        height: 70%;
     }
     .product__list-item-img {
         width: 100%;
@@ -361,23 +363,24 @@ html {
         margin: 1rem 0rem 0rem 1rem;
         line-height: 20px;
         font-weight: 200;
-        color: var(--black);
+        color: #444444;
         float: right;
-    } */
+    }
 
     /*----------about second------------------*/
     .about__slogan2 {
         color: #444444;
         position: relative;
         font-weight: 400;
-        line-height: 30px;
+        line-height: 40px;
         font-style: italic;
         text-align: center;
-        top: -1.5rem;
+        top: -3rem;
         font-size: 30px;
     }
     .about__text3 {
-        max-width: 90%;
+        position: relative;
+        max-width: 80%;
         font-size: 1.3rem;
         font-weight: 200;
         text-decoration: none;
@@ -391,7 +394,44 @@ html {
     .about__img-second {
         background: url('/assets/img/home/about_2.png') center / cover no-repeat;
         border: 1px solid #444444;
+        height: 600px;
         border-bottom:#444444;
+    }
+    .about__btn1 {
+        background-color: var(--white-color);
+        height: 48px;
+        top: 4rem;
+        padding: 0 32px;
+        border: 1px solid #444444;
+        border-radius: 8px;
+        position: relative;
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 1;
+        text-transform: uppercase;
+        white-space: nowrap;
+        box-sizing: border-box;
+        color: #f6f6f6;
+        background-color: #a01f24;
+        border-radius: 0.2rem;
+        flex-shrink: 0; 
+    }
+    .about__btn1:hover {
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 1;
+        border: solid 0.1rem #444444;
+        white-space: nowrap;
+        color: #a01f24;
+        background-color: #f6f6f6;
+        flex-shrink: 0;
     }
 
     /*---------------- about third---------- */
@@ -420,9 +460,45 @@ html {
     }
     .about__img-third {
         background: url('/assets/img/home/about_3.png') center / cover no-repeat;
-
+        height: 600px;
         border: 1px solid #444444;
         border-top: #444444;
+    }
+    .about__btn2 {
+        background-color: var(--white-color);
+        height: 48px;
+        top: 4rem;
+        padding: 0 32px;
+        border: 1px solid #444444;
+        border-radius: 8px;
+        position: relative;
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 1;
+        text-transform: uppercase;
+        white-space: nowrap;
+        box-sizing: border-box;
+        color: #f6f6f6;
+        background-color: #a01f24;
+        border-radius: 0.2rem;
+        flex-shrink: 0; 
+    }
+    .about__btn2:hover {
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 1;
+        border: solid 0.1rem #444444;
+        white-space: nowrap;
+        color: #a01f24;
+        background-color: #f6f6f6;
+        flex-shrink: 0;
     }
 }
 
@@ -824,13 +900,84 @@ html {
         border: 1px solid #444444;
         border-bottom:#444444;
     }
-
+    .about__btn1 {
+        background-color: var(--white-color);
+        height: 48px;
+        top: 6rem;
+        padding: 0 32px;
+        border: 1px solid #444444;
+        border-radius: 8px;
+        position: relative;
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 1;
+        text-transform: uppercase;
+        white-space: nowrap;
+        box-sizing: border-box;
+        color: #f6f6f6;
+        background-color: #a01f24;
+        border-radius: 0.2rem;
+        flex-shrink: 0; 
+    }
+    .about__btn1:hover {
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 1;
+        border: solid 0.1rem #444444;
+        white-space: nowrap;
+        color: #a01f24;
+        background-color: #f6f6f6;
+        flex-shrink: 0;
+    }
     /*---------------- about third---------- */
     .about__img-third {
         background: url('/assets/img/home/about_3.png') center / cover no-repeat;
         width: 50%;
         border: 1px solid #444444;
         border-top: #444444;
+    }
+    .about__btn2 {
+        background-color: var(--white-color);
+        height: 48px;
+        top: 6rem;
+        padding: 0 32px;
+        border: 1px solid #444444;
+        border-radius: 8px;
+        position: relative;
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 1;
+        text-transform: uppercase;
+        white-space: nowrap;
+        box-sizing: border-box;
+        color: #f6f6f6;
+        background-color: #a01f24;
+        border-radius: 0.2rem;
+        flex-shrink: 0; 
+    }
+    .about__btn2:hover {
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 1;
+        border: solid 0.1rem #444444;
+        white-space: nowrap;
+        color: #a01f24;
+        background-color: #f6f6f6;
+        flex-shrink: 0;
     }
 }
 
@@ -1216,6 +1363,42 @@ html {
         border: 1px solid #444444;
         border-bottom:#444444;
     }
+    .about__btn1 {
+        background-color: var(--white-color);
+        height: 48px;
+        padding: 0 32px;
+        top: 6rem;
+        border: 1px solid #444444;
+        border-radius: 8px;
+        position: relative;
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 1;
+        text-transform: uppercase;
+        white-space: nowrap;
+        box-sizing: border-box;
+        color: #f6f6f6;
+        background-color: #a01f24;
+        border-radius: 0.2rem;
+        flex-shrink: 0; 
+    }
+    .about__btn1:hover {
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 1;
+        border: solid 0.1rem #444444;
+        white-space: nowrap;
+        color: #a01f24;
+        background-color: #f6f6f6;
+        flex-shrink: 0;
+    }    
     /*---------------- about third---------- */
     .about__slogan3 {
         top: -4rem;
@@ -1247,5 +1430,40 @@ html {
         border: 1px solid #444444;
         border-top: #444444;
     }
-
+    .about__btn2 {
+        background-color: var(--white-color);
+        height: 48px;
+        padding: 0 32px;
+        top: 6rem;
+        border: 1px solid #444444;
+        border-radius: 8px;
+        position: relative;
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 1;
+        text-transform: uppercase;
+        white-space: nowrap;
+        box-sizing: border-box;
+        color: #f6f6f6;
+        background-color: #a01f24;
+        border-radius: 0.2rem;
+        flex-shrink: 0; 
+    }
+    .about__btn2:hover {
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 1;
+        border: solid 0.1rem #444444;
+        white-space: nowrap;
+        color: #a01f24;
+        background-color: #f6f6f6;
+        flex-shrink: 0;
+    }    
 }
