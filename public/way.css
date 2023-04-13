@@ -17,7 +17,7 @@
 
 #banner {
     margin-top: 92px;
-    /* position: relative; */
+    position: relative;
     height: 980px;
     background: url('./assets/img/home/banner.png') bottom center / cover no-repeat;
 }
