@@ -435,6 +435,13 @@ html {
     }
 
     /*---------------- about third---------- */
+    .about__container1 {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+    }
     .about__slogan3 {
         top: -2rem;
         color: #444444;
@@ -937,6 +944,12 @@ html {
         flex-shrink: 0;
     }
     /*---------------- about third---------- */
+    .about__container1 {
+        position: relative;
+        height: 45rem;
+        display: flex;
+        flex-direction: row-reverse;
+    }
     .about__img-third {
         background: url('/assets/img/home/about_3.png') center / cover no-repeat;
         width: 50%;
@@ -979,6 +992,7 @@ html {
         background-color: #f6f6f6;
         flex-shrink: 0;
     }
+
 }
 
 /* desktop */
@@ -1037,12 +1051,6 @@ html {
     /*---------about-----------*/
     #about1 {
         position: relative;
-    }
-    .about__container {
-        position: relative;
-        height: 620px;
-        display: flex;
-        flex-direction: row;
     }
     .about__container {
         position: relative;
@@ -1400,6 +1408,12 @@ html {
         flex-shrink: 0;
     }    
     /*---------------- about third---------- */
+    .about__container1 {
+        position: relative;
+        height: 620px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
     .about__slogan3 {
         top: -4rem;
         color: #444444;
