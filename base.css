@@ -17,7 +17,7 @@ html {
     line-height: 1.6rem;
     font-family: 'Fraunces', serif;
     box-sizing: border-box;
-
+    scroll-behavior: smooth;
 }
 
 .btn {
