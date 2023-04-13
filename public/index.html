@@ -14,80 +14,92 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;1,300;1,400&display=swap"
         rel="stylesheet">
-    
+
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.4.0/css/all.min.css">
 </head>
 
 <body>
     <div id="header">
-            <div class="header__frame">
-                <div class="header__nav-menu">
-                    <img class="menu__button" src="/assets/img_header/menu_icon.png" />
-                    <div class="menu">Menu</div>
-                    <div class="subnav">
-                        <div class="subnav__header">
-                            <a href="" class="subnav__title">
-                                menu
-                            </a>
+        <div class="header__frame">
+            <div class="header__nav-menu">
+                <img class="menu__button" src="/assets/img_header/menu_icon.png" />
+                <div class="menu">Menu</div>
+                <div class="subnav">
+                    <div class="subnav__header">
+                        <a href="" class="subnav__title">
+                            menu
+                        </a>
+                        <a href="" class="subnav__close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </a>
+                    </div>
+                    <div class="subnav__body">
+                        <ul class="subnav__list">
+                            <li class="subnav__item">
+                                <a href="about.html">An Vui</a>
+                            </li>
+                            <li class="subnav__item">
+                                <a href="product.html">Sản phẩm</a>
+                                <ul class="subnav__product-list">
+                                    <li class="subnav__product-item">
+                                        <i class="list-style fa-regular fa-greater-than"></i>
+                                        <a href="">Best seller</a>
+
+                                    </li>
+                                    <li class="subnav__product-item">
+                                        <i class="list-style fa-regular fa-greater-than"></i>
+                                        <a href="">Daily dessert</a>
+
+                                    </li>
+                                    <li class="subnav__product-item">
+                                        <i class="list-style fa-regular fa-greater-than"></i>
+                                        <a href="">Bánh theo chủ đề</a>
+
+                                    </li>
+                                    <li class="subnav__product-item">
+                                        <i class="list-style fa-regular fa-greater-than"></i>
+
+                                        <a href="">Phụ kiện</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="subnav__item">
+                                <a href="contact.html">Liên hệ</a>
+                            </li>
+                            <li class="subnav__item">
+                                <a href="way.html">Cách mua hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <a href="index.html" class="header__logo">
+                <img class="header__logo-img" src="./assets/img/Logoanvui.jpeg" />
+            </a>
+            <div class="header__nav-right">
+                <div class="order">Đặt bánh</div>
+                <div class="header__nav-cart">
+                    <div class="cart">Giỏ</div>
+                    <img class="cart__button" src="./assets/img_header/cart_icon.png" />
+
+                    <div class="cart__container">
+                        <div class="cart__close">
                             <a href="" class="subnav__close">
                                 <i class="fa-solid fa-xmark"></i>
                             </a>
                         </div>
-                        <div class="subnav__body">
-                            <ul class="subnav__list">
-                                <li class="subnav__item">An Vui</li>
-                                <li class="subnav__item">
-                                    Sản phẩm
-                                    <ul class="subnav__product-list">
-                                        <li class="subnav__product-item">
-                                            <i class="list-style fa-regular fa-greater-than"></i>
-                                            Best seller
-                                        </li>
-                                        <li class="subnav__product-item">
-                                            <i class="list-style fa-regular fa-greater-than"></i>
-                                            Daily dessert
-                                        </li>
-                                        <li class="subnav__product-item">
-                                            <i class="list-style fa-regular fa-greater-than"></i>
-                                            Bánh theo chủ đề
-                                        </li>
-                                        <li class="subnav__product-item">
-                                            <i class="list-style fa-regular fa-greater-than"></i>
-                                            Phụ kiện
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="subnav__item">Liên hệ</li>
-                                <li class="subnav__item">Cách mua hàng</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <img class="header__logo" src="./assets/img/Logoanvui.jpeg" />
-                <div class="header__nav-right">
-                    <div class="order">Đặt bánh</div>
-                    <div class="header__nav-cart">
-                        <div class="cart">Giỏ</div>
-                        <img class="cart__button" src="./assets/img_header/cart_icon.png" />
-    
-                        <div class="cart__container">
-                            <div class="cart__close">
-                                <a href="" class="subnav__close">
-                                    <i class="fa-solid fa-xmark"></i>
-                                </a>
-                            </div>
-                            <div class="cart__content">
-                                <a href="" class="cart__title">
-                                    Chưa có sản phẩm trong giỏ
-                                </a>
-                                <a href="" class="cart__text">
-                                    Tất cả sản phẩm
-                                </a>
-                            </div>
+                        <div class="cart__content">
+                            <a href="" class="cart__title">
+                                Chưa có sản phẩm trong giỏ
+                            </a>
+                            <a href="product.html" class="cart__text">
+                                Tất cả sản phẩm
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
         <div class="slider">
             <div class="slider__frame">
                 <div class="slider__content">
@@ -107,7 +119,7 @@
         <div id="banner">
             <div class="img__banner"> <img src="./assets/img/home/banner.png" alt=""></div>
             <div class="banner__btn">
-                <div href="" class="banner__content">Tất cả sản phẩm</div>
+                <a href="product.html">Tất cả sản phẩm</a>
             </div>
 
         </div>
@@ -138,7 +150,7 @@
                     </div>
 
                     <div class="about__btn">
-                        About us
+                        <a href="about.html">About us</a>
                     </div>
                 </div>
 
@@ -193,7 +205,7 @@
                 </p>
 
                 <div class="btn_sp">
-                    Xem tất cả
+                    <a href="product.html">Xem tất cả</a>
                 </div>
             </div>
 
@@ -205,7 +217,7 @@
                     <div class="container__image">
                         <img src="/assets/img/home/product_list_1.png" alt="" class="product__list-item-img">
                     </div>
-                    <a href="" class="product__list-item-view">
+                    <a href="product.html" class="product__list-item-view">
                         Xem tất cả
                     </a>
                 </div>
@@ -216,7 +228,7 @@
                     <div class="container__image">
                         <img src="/assets/img/home/product_list_2.png" alt="" class="product__list-item-img">
                     </div>
-                    <a href="" class="product__list-item-view">
+                    <a href="product.html" class="product__list-item-view">
                         Xem tất cả
                     </a>
                 </div>
@@ -227,7 +239,7 @@
                     <div class="container__image">
                         <img src="/assets/img/home/product_list_3.png" alt="" class="product__list-item-img">
                     </div>
-                    <a href="" class="product__list-item-view">
+                    <a href="product.html" class="product__list-item-view">
                         Xem tất cả
                     </a>
                 </div>
@@ -254,8 +266,8 @@
                         mong muốn mang lại những chiếc bánh phù hợp nhất với khẩu vị của khách hàng.
                     </div>
 
-                    <div class="about__btn1">
-                        About us
+                    <div class="about__btn">
+                        <a href="about.html">About us</a>
                     </div>
                 </div>
 
@@ -284,14 +296,15 @@
                     </div>
 
 
-                    <div class="about__btn2">
-                        Cách đặt bánh
+                    <div class="about__btn">
+                        <a href="way.html">Cách đặt bánh</a>
+                        
                     </div>
                 </div>
-                </div>
-
             </div>
+
         </div>
+    </div>
     </div>
 
     <div id="footer__place">
@@ -302,7 +315,7 @@
                     <div class="logo__text">Lựa chọn hương vị ngọt ngào <br> cho bữa tiệc của bạn</div>
                 </section>
             </div>
-            
+
             <div class="footer__div2">
                 <section class="product__footer">
                     <div class="group__sp-header">
@@ -316,7 +329,7 @@
                     </div>
                 </section>
             </div>
-            
+
             <div class="footer__div3">
                 <section class="contact__footer">
                     <div class="group__contact-header">
