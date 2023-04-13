@@ -1,4 +1,3 @@
-
 #main {
     width: 100%;
 }
@@ -10,7 +9,6 @@
 }
 .main__container {
     width: 100%;
-    height: 980px;
     position: relative;
     flex-shrink: 0;
 }
@@ -20,8 +18,6 @@
     box-sizing: border-box;
     height: 924px;
     position: relative;
-    left: 0;
-    top: 4.3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,7 +25,7 @@
     position: relative;
     background: url('./assets/img/home/banner.png') bottom center / cover no-repeat;
 }
-.banner__button {
+.intro__button {
     background-color: var(--white-color);
     height: 48px;
     padding: 0 32px;
@@ -56,7 +52,7 @@
     border-radius: 0.2rem;
     flex-shrink: 0;   
 }
-.banner__button:hover{
+.intro__button:hover{
     display: inline-block;
     display: flex;
     align-items: center;
